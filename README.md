@@ -1,7 +1,7 @@
 # Dokumentation
 
 ## Projektmanagement
-Alle Dokumente zum Projektmanagement liegen im Ordner allgemein.
+Alle Dokumente zum Projektmanagement liegen im Ordner [allgemein](https://github.com/Cryp-Tour/dokumentation/tree/main/allgemein).
 
 ## Infrastruktur
 
