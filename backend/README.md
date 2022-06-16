@@ -5,6 +5,6 @@ Die REST-API des Backends ist mittels einer [openapi.yaml](https://github.com/Cr
 
 ## Datenbank
 Als Datenbank wird SQLite verwendet. Die Datenbankstruktur ist in folgendem Bild dargestellt.
-![](backend/ERD.png)
+![](ERD.png)
 
 ## Ordnerstruktur und Dateien
