@@ -1,5 +1,8 @@
 # Dokumentation
 
+## Projektmanagement
+Alle Dokumente zum Projektmanagement liegen im Ordner allgemein.
+
 ## Infrastruktur
 
 ## CI/CD
