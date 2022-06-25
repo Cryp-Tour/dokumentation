@@ -21,7 +21,29 @@ Enthält die Workflow-Dateien für die Ausführung der Github Actions.
 Konfig-Datei zum einfacheren Starten des Nodejs-Servers in VSCode.
 
 ---
-### API
+### API/controllers/*
+Enthält Funktionen die für die Datei API/routes/testRoute.js benötigt werden.
+
+### API/lib/*
+Hilfreiche Funktionen für die Fehlerbehandlung und dem Dateiumgang.
+
+### API/index.js
+Erstellt die Hauptrouten für die Touren und Benutzer, sowie der 404 Fehlermeldung.
+
+### API/routes/testRoute.js
+Route die Verwendet werden kann, um zu testen ob die REST-API erreichbar ist.
+
+### API/routes/tours.js
+Enthält alle Routen / Endpoints die für Touren verfügbar sind. Alle Endpoints rufen dann die datenverarbeitenden Funktionen in API/services auf. Diese Funktionen überprüfen auch, ob ein Benutzer eingeloggt ist.
+
+### API/routes/user.js
+Enthält alle Routen / Endpoints die für Benutzer verfügbar sind. Alle Endpoints rufen dann die datenverarbeitenden Funktionen in API/services auf. Diese Funktionen überprüfen auch, ob ein Benutzer eingeloggt ist.
+
+### API/services/tours.js
+Enthält alle datenverarbeitenden Funktionen für Touren.
+
+### API/services/user.js
+Enthält alle datenverarbeitenden Funktionen für Benutzer.
 
 ---
 ### contracts/*
