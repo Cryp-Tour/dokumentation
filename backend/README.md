@@ -11,3 +11,42 @@ Die REST-API des Backends ist mittels einer [openapi.yaml](https://github.com/Cr
 Da die REST-API mittels der OpenAPI.yaml Datei dokumentiert ist und alle Funktionen dafür ein einheitliches Namensschema haben, entfählt die Kommentierung dieser Funktionen.
 
 ## Ordnerstruktur und Dateien
+
+---
+### .github/workflows
+Enthält die Workflow-Dateien für die Ausführung der Github Actions.
+
+---
+### .vscode
+Konfig-Datei zum einfacheren Starten des Nodejs-Servers in VSCode.
+
+---
+### API
+
+---
+### contracts/*
+JSON-Dateien mit Rinkerby Contracts. Für den Kauf benötigt.
+
+---
+### data/*
+Hier werden die Bilder und GPX-Dateien für jede Tour abgelegt. Dazu bekommt jede Tour einen Ordner. Der Ordnername ist die TourID.
+
+---
+### db/dbo.js
+JS-Klasse die die Arbeit mit SQLite Datenbank vereinfacht. Erstellt die Tabellen falls sie nicht exestieren und hat funktionen, um SQL-Befehle auszuführen.
+
+---
+### .env
+Environment Variablen die für die erkennung von Tourkäufen benötigt wird.
+
+### Dockerfile
+Enthält die Konfiguration, um aus dem Server Repo ein Docker Image zu erstellen.
+
+### docker-compose.yaml
+Ist die Docker-Compose Datei die sich auf dem Server befindet und die Container für das Frontend und Backend startet.
+
+### *-Manager.js
+Funktionen die den Umgang mit Ordnern, GPX-Dateien, Bildern, Benutzern und Crypto vereinfacht und häufiger in verschiedenen Routen der REST-API benötigt werden.
+
+### package-lock.json & package.json & server.js
+Dateien, damit der Nodejs-Webserver läuft, um das Backend bereitzustellen.
